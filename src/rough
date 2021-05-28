@@ -1,0 +1,46 @@
+   // const title='Hi!';
+  // const x='my 1st blog';
+  // const linkme="http://www.google.com"
+
+ {/* <p>this is {x}.</p>
+       <p>{"any kind of js statement in curly bracels"}</p>
+       <p>{ "for eg numbers like as below" }</p>
+       <p>{ 1000 }</p>
+       <p>{"or functions as"}</p>
+       <p>{Math.random()*100}</p>
+       <p>{ "array as"}</p>
+       <p>{[1 ,2 ,3 ,4 ,5 ]}</p>
+        <p>{"links as"}</p>
+       <a href={linkme}>Go to Google</a> */}
+
+
+           {/* <button onClick={() => {
+                meagain('shreya');
+            }}>me again</button> */}
+
+             const [name,setName]=useState('Mario');
+
+    const clickme = () => {
+        setName('Shreya');
+    }
+    const meme=()=>{
+        setName('divya');
+    }
+  <p>{name}</p>
+            <button onClick={clickme}>Click me</button>
+            <br />
+            <button onClick={meme}>me again</button>
+
+            <BlogList blogs={blogs.filter((blog)=>{
+                if(blog.id%2!==0)
+                {
+                    return blog;
+                }
+            })} title="My blogs" handleDelete={handleDelete}/> */
+
+
+<button onClick={()=>handleDelete(blogno.id)}>delete blog</button>   
+    const handleDelete=(id)=>{
+        const newBlogs= blogs.filter(blog => blog.id!==id);
+        setBlogs(newBlogs);
+    };

@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "hello, how do you do?",
+      "author": "Shreya",
+      "id": 1
+    },
+    {
+      "title": "Hello Everyone",
+      "author": "xyz",
+      "body": "Greetings! Just completed my 1st Website.",
+      "id": 3
+    },
+    {
+      "title": "vinay",
+      "author": "vinay",
+      "body": "seema is a bad girl",
+      "id": 4
+    },
+    {
+      "title": "HELLO",
+      "author": "SEEMA GARG",
+      "body": "GOOD MORNING",
+      "id": 5
+    },
+    {
+      "title": "Edited Blog",
+      "author": "ABC",
+      "body": "Running successfully!!! \nYayyyyy!!",
+      "id": 6
+    },
+    {
+      "title": "dgh",
+      "author": "sdfg",
+      "body": "dfghj",
+      "id": 7
+    }
+  ]
+}
