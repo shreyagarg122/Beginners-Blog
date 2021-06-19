@@ -31,10 +31,16 @@
       "id": 6
     },
     {
-      "title": "dgh",
-      "author": "sdfg",
-      "body": "dfghj",
+      "title": "Hey there",
+      "author": "Divya",
+      "body": "Started with Github",
       "id": 7
+    },
+    {
+      "title": "Stop",
+      "author": "Stupid",
+      "body": "idk how to add search",
+      "id": 8
     }
   ]
 }

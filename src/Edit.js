@@ -15,7 +15,6 @@ const Edit = () => {
     const handleEditor=(e)=>{
         e.preventDefault();
         const blog={title,body,author};
-        console.log(blog);
         setIsLoading(true);
         
         fetch('http://localhost:8000/blogs/'+id,{

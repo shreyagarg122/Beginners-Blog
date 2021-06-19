@@ -6,6 +6,7 @@ import Contact from './Contact';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import Edit from './Edit';
+import SearchBar from './SearchBar';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/edit/:id">
               <Edit />
+            </Route>
+            <Route path='/search'>
+              <SearchBar />
             </Route>
             <Route path="*">
               <NotFound />

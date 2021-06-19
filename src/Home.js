@@ -1,4 +1,6 @@
 // import {useState, useEffect} from 'react';
+import { useState } from 'react';
+import { useHistory } from 'react-router';
 import BlogList from './BlogList';
 import useFetch from './useFetch';
 
